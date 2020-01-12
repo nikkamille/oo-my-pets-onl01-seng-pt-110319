@@ -52,7 +52,7 @@ class Owner
   def sell_pets
     Cat.mood = "nervous"
     Dog.mood = "nervous"
-    
+    self.reset_all
   end
 
   
