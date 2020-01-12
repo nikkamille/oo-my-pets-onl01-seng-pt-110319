@@ -1,9 +1,9 @@
 class Owner
   
-  attr_reader :name
+  attr_reader :name, :species
   
-  def name
-    
+  def initialize
+    @species = human
   end
   
   
