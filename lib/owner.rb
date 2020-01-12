@@ -53,6 +53,7 @@ class Owner
     pets = self.cats + self.dogs
     pets.each do |pet|
       pet.mood = "nervous"
+      pet.owner = 0
     end
   end
 
