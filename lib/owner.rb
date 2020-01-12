@@ -1,3 +1,9 @@
 class Owner
-  # code goes here
+  
+  def name
+    
+  end
+  
+  
+  
 end
