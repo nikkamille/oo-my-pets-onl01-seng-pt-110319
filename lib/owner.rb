@@ -25,6 +25,6 @@ class Owner
     @@owners.clear
   end
   
-  
+  def 
   
 end
