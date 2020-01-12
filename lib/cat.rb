@@ -12,9 +12,11 @@ class Cat
   end
   
   def self.all
-    
+    @@cats
   end
   
-  
+  def self.count
+    @@cats.count
+  end
   
 end
