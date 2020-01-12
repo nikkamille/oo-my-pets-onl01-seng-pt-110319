@@ -42,7 +42,7 @@ class Owner
   end
   
   def walk_dogs
-    self.
+    self.dogs.each{|dog| dog
   end
   
   def feed_cats
