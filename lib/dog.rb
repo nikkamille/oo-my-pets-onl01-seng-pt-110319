@@ -4,10 +4,6 @@ class Dog
   attr_reader :name
   @@dogs = []
   
-  def mood=(mood)
-    @mood = mood
-  end
-  
   def initialize(name, owner)
     @name = name
     @owner = owner
