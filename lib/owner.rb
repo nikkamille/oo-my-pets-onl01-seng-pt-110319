@@ -25,6 +25,9 @@ class Owner
     @@owners.clear
   end
   
-  def 
+  def cats
+    @@cats.each{|cat| cat
+  end
+
   
 end
